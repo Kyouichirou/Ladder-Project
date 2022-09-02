@@ -113,6 +113,7 @@
                     'user':"",
                     'password':"",
                  */
+                // GM_xmlhttpRequest, 返回一个obj, 只具有.abort()一个方法
                 this._request_obj = GM_xmlhttpRequest({
                     ...new_configs,
                     // 成功加载
